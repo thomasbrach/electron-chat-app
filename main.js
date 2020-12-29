@@ -17,7 +17,7 @@ function createWindow() {
         backgroundColor: 'white',
     })
 
-    win.loadFile('index.html')
+    win.loadFile(path.join(__dirname, 'index.html'))
     if (isDev) win.webContents.openDevTools()
 }
 

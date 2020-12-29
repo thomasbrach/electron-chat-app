@@ -2,6 +2,7 @@ module.exports = {
     root: true,
     env: {
         browser: true,
+        amd: true,
         node: true,
     },
     parser: '@typescript-eslint/parser',
@@ -41,17 +42,20 @@ module.exports = {
                 aspects: ['invalidHref', 'preferButton'],
             },
         ],
+        'jsx-a11y/click-events-have-key-events': 'off',
+        'jsx-a11y/no-static-element-interactions': 'off',
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/no-unused-vars': [
             1,
             {
-                vars: 'all',
-                varsIgnorePattern: '^_',
+                args: 'all',
+                argsIgnorePattern: '^_',
             },
         ],
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-var-requires': 'off',
+        '@typescript-eslint/no-namespace': 'off',
     },
 }

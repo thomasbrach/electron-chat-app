@@ -1,0 +1,6 @@
+export { default as ChannelView } from './Channel'
+export { default as CreateChannelView } from './CreateChannel'
+export { default as HomeView } from './Home'
+export { default as LoadingView } from './Loading'
+export { default as SettingsView } from './Settings'
+export { default as WelcomeView } from './Welcome'
