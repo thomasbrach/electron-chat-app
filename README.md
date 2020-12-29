@@ -10,7 +10,7 @@ Simple Chat app.
 - [ESLint](https://eslint.org/docs/user-guide/configuring/) – How to configure code linter behaviour.
 - [Prettier](https://prettier.io/docs/en/configuration.html/) – How to configure code formatting rules.
 - [Babel](https://babeljs.io/docs/en/configuration/) – How to compile Javascript code
-– [Webpack](https://webpack.js.org/guides/getting-started/) – How to bundle Javascript-based app assets
+- [Webpack](https://webpack.js.org/guides/getting-started/) – How to bundle Javascript-based app assets
 
 ### Other Ressources
 
